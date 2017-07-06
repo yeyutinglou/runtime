@@ -18,6 +18,7 @@
 		069178261F0B734300DB43CE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 069178251F0B734300DB43CE /* Person.m */; };
 		069178291F0B762500DB43CE /* man.m in Sources */ = {isa = PBXBuildFile; fileRef = 069178281F0B762500DB43CE /* man.m */; };
 		0691782C1F0D151100DB43CE /* NSObject+DYWKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691782B1F0D151100DB43CE /* NSObject+DYWKVO.m */; };
+		0691782F1F0DD20200DB43CE /* NSURL+url.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691782E1F0DD20200DB43CE /* NSURL+url.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		069178281F0B762500DB43CE /* man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = man.m; sourceTree = "<group>"; };
 		0691782A1F0D151100DB43CE /* NSObject+DYWKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DYWKVO.h"; sourceTree = "<group>"; };
 		0691782B1F0D151100DB43CE /* NSObject+DYWKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DYWKVO.m"; sourceTree = "<group>"; };
+		0691782D1F0DD20200DB43CE /* NSURL+url.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+url.h"; sourceTree = "<group>"; };
+		0691782E1F0DD20200DB43CE /* NSURL+url.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+url.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				069177F51F0B732600DB43CE /* AppDelegate.m */,
 				069177F71F0B732600DB43CE /* ViewController.h */,
 				069177F81F0B732600DB43CE /* ViewController.m */,
+				0691782D1F0DD20200DB43CE /* NSURL+url.h */,
+				0691782E1F0DD20200DB43CE /* NSURL+url.m */,
 				0691782A1F0D151100DB43CE /* NSObject+DYWKVO.h */,
 				0691782B1F0D151100DB43CE /* NSObject+DYWKVO.m */,
 				069178271F0B762500DB43CE /* man.h */,
@@ -293,6 +298,7 @@
 				069177F61F0B732600DB43CE /* AppDelegate.m in Sources */,
 				069178261F0B734300DB43CE /* Person.m in Sources */,
 				0691782C1F0D151100DB43CE /* NSObject+DYWKVO.m in Sources */,
+				0691782F1F0DD20200DB43CE /* NSURL+url.m in Sources */,
 				069178291F0B762500DB43CE /* man.m in Sources */,
 				069177F31F0B732600DB43CE /* main.m in Sources */,
 			);

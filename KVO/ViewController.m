@@ -9,6 +9,11 @@
 #import "ViewController.h"
 #import "Person.h"
 #import "NSObject+DYWKVO.h"
+
+
+#import "NSURL+url.h"
+
+
 @interface ViewController ()
 
 @property (nonatomic, strong) Person *p;
@@ -25,6 +30,11 @@
     [p DYW_addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:nil];
     
     _p = p;
+    
+    
+    NSURL *url = [NSURL URLWithString:@"http://www.baidu.com/中文"];
+    NSLog(@"%@",url);
+    
     
     
 }
