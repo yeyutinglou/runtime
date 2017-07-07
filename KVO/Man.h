@@ -8,6 +8,8 @@
 
 #import "Person.h"
 
-@interface man : Person
+@interface Man : Person
+
+
 
 @end

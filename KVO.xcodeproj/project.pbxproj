@@ -16,9 +16,13 @@
 		0691780C1F0B732600DB43CE /* KVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691780B1F0B732600DB43CE /* KVOTests.m */; };
 		069178171F0B732600DB43CE /* KVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 069178161F0B732600DB43CE /* KVOUITests.m */; };
 		069178261F0B734300DB43CE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 069178251F0B734300DB43CE /* Person.m */; };
-		069178291F0B762500DB43CE /* man.m in Sources */ = {isa = PBXBuildFile; fileRef = 069178281F0B762500DB43CE /* man.m */; };
+		069178291F0B762500DB43CE /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 069178281F0B762500DB43CE /* Man.m */; };
 		0691782C1F0D151100DB43CE /* NSObject+DYWKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691782B1F0D151100DB43CE /* NSObject+DYWKVO.m */; };
 		0691782F1F0DD20200DB43CE /* NSURL+url.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691782E1F0DD20200DB43CE /* NSURL+url.m */; };
+		069178321F0E05E100DB43CE /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 069178311F0E05E100DB43CE /* NSObject+Property.m */; };
+		069178351F0E0C2900DB43CE /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 069178341F0E0C2900DB43CE /* NSObject+Log.m */; };
+		06F2B4181F0E165D00384311 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F2B4171F0E165D00384311 /* NSObject+Model.m */; };
+		06F2B41B1F0E370600384311 /* Weman.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F2B41A1F0E370600384311 /* Weman.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +61,20 @@
 		069178181F0B732600DB43CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		069178241F0B734300DB43CE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		069178251F0B734300DB43CE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		069178271F0B762500DB43CE /* man.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = man.h; sourceTree = "<group>"; };
-		069178281F0B762500DB43CE /* man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = man.m; sourceTree = "<group>"; };
+		069178271F0B762500DB43CE /* Man.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		069178281F0B762500DB43CE /* Man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
 		0691782A1F0D151100DB43CE /* NSObject+DYWKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DYWKVO.h"; sourceTree = "<group>"; };
 		0691782B1F0D151100DB43CE /* NSObject+DYWKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DYWKVO.m"; sourceTree = "<group>"; };
 		0691782D1F0DD20200DB43CE /* NSURL+url.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+url.h"; sourceTree = "<group>"; };
 		0691782E1F0DD20200DB43CE /* NSURL+url.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+url.m"; sourceTree = "<group>"; };
+		069178301F0E05E100DB43CE /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		069178311F0E05E100DB43CE /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		069178331F0E0C2900DB43CE /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
+		069178341F0E0C2900DB43CE /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
+		06F2B4161F0E165D00384311 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		06F2B4171F0E165D00384311 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		06F2B4191F0E370600384311 /* Weman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weman.h; sourceTree = "<group>"; };
+		06F2B41A1F0E370600384311 /* Weman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weman.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,14 +129,22 @@
 				069177F51F0B732600DB43CE /* AppDelegate.m */,
 				069177F71F0B732600DB43CE /* ViewController.h */,
 				069177F81F0B732600DB43CE /* ViewController.m */,
+				06F2B4161F0E165D00384311 /* NSObject+Model.h */,
+				06F2B4171F0E165D00384311 /* NSObject+Model.m */,
+				069178331F0E0C2900DB43CE /* NSObject+Log.h */,
+				069178341F0E0C2900DB43CE /* NSObject+Log.m */,
+				069178301F0E05E100DB43CE /* NSObject+Property.h */,
+				069178311F0E05E100DB43CE /* NSObject+Property.m */,
 				0691782D1F0DD20200DB43CE /* NSURL+url.h */,
 				0691782E1F0DD20200DB43CE /* NSURL+url.m */,
 				0691782A1F0D151100DB43CE /* NSObject+DYWKVO.h */,
 				0691782B1F0D151100DB43CE /* NSObject+DYWKVO.m */,
-				069178271F0B762500DB43CE /* man.h */,
-				069178281F0B762500DB43CE /* man.m */,
+				069178271F0B762500DB43CE /* Man.h */,
+				069178281F0B762500DB43CE /* Man.m */,
 				069178241F0B734300DB43CE /* Person.h */,
 				069178251F0B734300DB43CE /* Person.m */,
+				06F2B4191F0E370600384311 /* Weman.h */,
+				06F2B41A1F0E370600384311 /* Weman.m */,
 				069177FA1F0B732600DB43CE /* Main.storyboard */,
 				069177FD1F0B732600DB43CE /* Assets.xcassets */,
 				069177FF1F0B732600DB43CE /* LaunchScreen.storyboard */,
@@ -299,8 +319,12 @@
 				069178261F0B734300DB43CE /* Person.m in Sources */,
 				0691782C1F0D151100DB43CE /* NSObject+DYWKVO.m in Sources */,
 				0691782F1F0DD20200DB43CE /* NSURL+url.m in Sources */,
-				069178291F0B762500DB43CE /* man.m in Sources */,
+				069178351F0E0C2900DB43CE /* NSObject+Log.m in Sources */,
+				06F2B41B1F0E370600384311 /* Weman.m in Sources */,
+				069178291F0B762500DB43CE /* Man.m in Sources */,
+				069178321F0E05E100DB43CE /* NSObject+Property.m in Sources */,
 				069177F31F0B732600DB43CE /* main.m in Sources */,
+				06F2B4181F0E165D00384311 /* NSObject+Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +560,7 @@
 				0691781D1F0B732600DB43CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0691781E1F0B732600DB43CE /* Build configuration list for PBXNativeTarget "KVOTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +569,7 @@
 				069178201F0B732600DB43CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		069178211F0B732600DB43CE /* Build configuration list for PBXNativeTarget "KVOUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +578,7 @@
 				069178231F0B732600DB43CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,9 +6,9 @@
 //  Copyright © 2017年 jyd. All rights reserved.
 //
 
-#import "man.h"
+#import "Man.h"
 
-@implementation man
+@implementation Man
 
 - (void)setName:(NSString *)name
 {
