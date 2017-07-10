@@ -10,6 +10,7 @@
 #import "Person.h"
 #import "NSObject+DYWKVO.h"
 #import "NSURL+url.h"
+#import "UIViewController+Tracking.h"
 #import "NSObject+Property.h"
 #import "NSObject+Log.h"
 #import "NSObject+Model.h"
@@ -19,6 +20,11 @@
 @end
 
 @implementation ViewController
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

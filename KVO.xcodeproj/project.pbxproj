@@ -23,6 +23,7 @@
 		069178351F0E0C2900DB43CE /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 069178341F0E0C2900DB43CE /* NSObject+Log.m */; };
 		06F2B4181F0E165D00384311 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F2B4171F0E165D00384311 /* NSObject+Model.m */; };
 		06F2B41B1F0E370600384311 /* Weman.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F2B41A1F0E370600384311 /* Weman.m */; };
+		06F2B4621F13597C00384311 /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F2B4611F13597C00384311 /* UIViewController+Tracking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		06F2B4171F0E165D00384311 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
 		06F2B4191F0E370600384311 /* Weman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weman.h; sourceTree = "<group>"; };
 		06F2B41A1F0E370600384311 /* Weman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weman.m; sourceTree = "<group>"; };
+		06F2B4601F13597C00384311 /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
+		06F2B4611F13597C00384311 /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 				069177F51F0B732600DB43CE /* AppDelegate.m */,
 				069177F71F0B732600DB43CE /* ViewController.h */,
 				069177F81F0B732600DB43CE /* ViewController.m */,
+				06F2B4601F13597C00384311 /* UIViewController+Tracking.h */,
+				06F2B4611F13597C00384311 /* UIViewController+Tracking.m */,
 				06F2B4161F0E165D00384311 /* NSObject+Model.h */,
 				06F2B4171F0E165D00384311 /* NSObject+Model.m */,
 				069178331F0E0C2900DB43CE /* NSObject+Log.h */,
@@ -319,6 +324,7 @@
 				069178261F0B734300DB43CE /* Person.m in Sources */,
 				0691782C1F0D151100DB43CE /* NSObject+DYWKVO.m in Sources */,
 				0691782F1F0DD20200DB43CE /* NSURL+url.m in Sources */,
+				06F2B4621F13597C00384311 /* UIViewController+Tracking.m in Sources */,
 				069178351F0E0C2900DB43CE /* NSObject+Log.m in Sources */,
 				06F2B41B1F0E370600384311 /* Weman.m in Sources */,
 				069178291F0B762500DB43CE /* Man.m in Sources */,
