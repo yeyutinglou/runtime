@@ -25,6 +25,7 @@
 		06F2B41B1F0E370600384311 /* Weman.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F2B41A1F0E370600384311 /* Weman.m */; };
 		06F2B4621F13597C00384311 /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F2B4611F13597C00384311 /* UIViewController+Tracking.m */; };
 		06F2B4651F13655200384311 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F2B4641F13655200384311 /* NSObject+Swizzling.m */; };
+		06F2B4681F13702300384311 /* UIButton+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F2B4671F13702300384311 /* UIButton+Swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		06F2B4611F13597C00384311 /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
 		06F2B4631F13655200384311 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
 		06F2B4641F13655200384311 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		06F2B4661F13702300384311 /* UIButton+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Swizzling.h"; sourceTree = "<group>"; };
+		06F2B4671F13702300384311 /* UIButton+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Swizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				069177F81F0B732600DB43CE /* ViewController.m */,
 				06F2B4601F13597C00384311 /* UIViewController+Tracking.h */,
 				06F2B4611F13597C00384311 /* UIViewController+Tracking.m */,
+				06F2B4661F13702300384311 /* UIButton+Swizzling.h */,
+				06F2B4671F13702300384311 /* UIButton+Swizzling.m */,
 				06F2B4631F13655200384311 /* NSObject+Swizzling.h */,
 				06F2B4641F13655200384311 /* NSObject+Swizzling.m */,
 				06F2B4161F0E165D00384311 /* NSObject+Model.h */,
@@ -329,6 +334,7 @@
 				069178261F0B734300DB43CE /* Person.m in Sources */,
 				0691782C1F0D151100DB43CE /* NSObject+DYWKVO.m in Sources */,
 				0691782F1F0DD20200DB43CE /* NSURL+url.m in Sources */,
+				06F2B4681F13702300384311 /* UIButton+Swizzling.m in Sources */,
 				06F2B4621F13597C00384311 /* UIViewController+Tracking.m in Sources */,
 				069178351F0E0C2900DB43CE /* NSObject+Log.m in Sources */,
 				06F2B41B1F0E370600384311 /* Weman.m in Sources */,

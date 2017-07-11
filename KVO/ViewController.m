@@ -14,6 +14,7 @@
 #import "NSObject+Property.h"
 #import "NSObject+Log.h"
 #import "NSObject+Model.h"
+#import "UIButton+Swizzling.h"
 @interface ViewController ()
 
 @property (nonatomic, strong) Person *p;
@@ -72,6 +73,9 @@
     
 }
 
+- (IBAction)buttonClicked:(UIButton *)sender {
+    NSLog(@"Click");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
