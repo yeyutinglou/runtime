@@ -8,20 +8,19 @@
 
 #import "NSObject+Property.h"
 #import <objc/runtime.h>
-//定义关联的key
-static const char *key = "name";
+
 
 @implementation NSObject (Property)
 
 - (NSString *)name
 {
     //根据关联的key,获取值
-    return objc_getAssociatedObject(self, key);
+    return objc_getAssociatedObject(self, _cmd);
 }
 
 - (void)setName:(NSString *)name
 {
-    objc_setAssociatedObject(self, key, name, OBJC_ASSOCIATION_COPY_NONATOMIC);
+    objc_setAssociatedObject(self, @selector(setName:), name, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
 

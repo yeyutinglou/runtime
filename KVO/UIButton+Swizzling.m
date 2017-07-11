@@ -9,6 +9,20 @@
 #import "UIButton+Swizzling.h"
 #import "NSObject+Swizzling.h"
 #import <objc/message.h>
+
+#define defaultInterval 1
+
+@interface UIButton ()
+
+/** 间隔 */
+@property (nonatomic, assign) NSTimeInterval timeInterval;
+
+/** 是否忽略事件 */
+@property (nonatomic, assign) BOOL isIgnore;
+
+
+@end
+
 @implementation UIButton (Swizzling)
 
 + (void)load
@@ -52,7 +66,6 @@
     if ([NSStringFromClass(self.class) isEqualToString:@"UIButton"]) {
     
         self.timeInterval = self.timeInterval == 0 ? defaultInterval : self.timeInterval;
-        NSLog(@"%f",self.timeInterval);
         if (self.isIgnore) {
             return;
         }

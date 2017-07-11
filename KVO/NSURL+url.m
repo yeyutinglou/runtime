@@ -14,7 +14,7 @@
  */
 
 #import "NSURL+url.h"
-#import <objc/runtime.h>
+#import "NSObject+Swizzling.h"
 
 @implementation NSURL (url)
 
@@ -22,11 +22,10 @@
 {
     //下钩子
     //拿到两个Method
-    Method URLWS = class_getClassMethod([NSURL class], @selector(URLWithString:));
-    Method DYWWS = class_getClassMethod([NSURL class], @selector(DYW_URLWithStr:));
-    
-    //交换实现方法
-    method_exchangeImplementations(URLWS, DYWWS);
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        [self DYW_methodSwizlingWithOriginalSelector:@selector(URLWithString:) swizzledSelector:@selector(DYW_URLWithStr:)];
+    });
 }
 
 
